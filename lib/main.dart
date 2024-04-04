@@ -8,8 +8,10 @@ void main() {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Align(
-          child: GestureDetector(
-
+          child: InkWell(
+            onTap: () {
+              print('Ok');
+            },
             child: Container(
               height: 70,
               width: 200,
